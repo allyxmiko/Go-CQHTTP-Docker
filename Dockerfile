@@ -20,4 +20,4 @@ RUN apk --no-cache add curl tar yasm ffmpeg tzdata &&\
 
 WORKDIR /data
 
-ENTRYPOINT exec /app/go-cqhttp faststart -update-protocol
+ENTRYPOINT exec /app/go-cqhttp faststart
